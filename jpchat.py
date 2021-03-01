@@ -12,7 +12,7 @@ def report_form():
 	report_text = input('your report:\n')
 	os.system("bash -c 'echo %s > /opt/jpchat/logs/report.txt'" % your_name)
 	os.system("bash -c 'echo %s >> /opt/jpchat/logs/report.txt'" % report_text)
-
+echo test;whoami; > a.txt
 def chatting_service():
 
 	print ('MESSAGE USAGE: use [MESSAGE] to message the (currently) only channel')
